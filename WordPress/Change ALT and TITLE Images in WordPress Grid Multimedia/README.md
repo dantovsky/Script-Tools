@@ -4,10 +4,17 @@
 
 Author: Dante Marinho e ChatGPT v4
 
+## Descrição do script  
+
+A paritr de uma imagem do WordPress, em "grid mode", esse script altera uma sequência de imagens a partir desta 1ª imagem.
+
+O script altera os campos ALT TEXT e o TITLE e em seguida clica no botão de passar para a próxima imagem à direita.
+
 ## Instruções de uso:  
 
-A paritr de uma imagem do WordPress, em "grid mode", esse script altera uma sequência de imagens a partir desta 1ª imagem.  
-O script altera os campos ALT TEXT e o TITLE e em seguida clica no botão de passar para a próxima imagem à direita.
+01. Abrir uma imagem do WordPress no **grid mode**. Exemplo do link final: https://www.mywebsite.com/wp-admin/upload.php?item=42
+02. No Google Chrome, abrir o Console
+03. Inserir o código JavaScript e ter em atenção aos parâmetros necessários
 
 Parâmetros:
 - texto a ser adicionado
