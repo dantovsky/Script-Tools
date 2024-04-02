@@ -12,9 +12,11 @@ O script altera os campos ALT TEXT e o TITLE e em seguida clica no botão de pas
 
 ## Instruções de uso:  
 
-01. Abrir uma imagem do WordPress no **grid mode**. Exemplo do link final: https://www.mywebsite.com/wp-admin/upload.php?item=42
-02. No Google Chrome, abrir o Console
-03. Inserir o código JavaScript e ter em atenção aos parâmetros necessários
+1. No WordPress, ir ao menu Multimedia e escolher o **grid mode**
+2. Ao final da página, clicar em "carregar mais imagens", e deixar que apareça, ao menos, todas as imagens que precisa atualizar os campos
+3. Abrir uma imagem do WordPress no **grid mode**. Exemplo do link final: https://www.mywebsite.com/wp-admin/upload.php?item=42
+4. No Google Chrome, abrir o Console
+5. Inserir o código JavaScript e ter em atenção aos parâmetros necessários
 
 Parâmetros:
 - texto a ser adicionado
