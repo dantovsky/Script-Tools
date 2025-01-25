@@ -1,5 +1,7 @@
 # Tube to MP3 | Conversor de Vídeos do YouTube para arquivos de áudio (mp3)
 
+Programa criado para uso pessoal com fins didáticos. 
+
 ## O programa pode ser executado com o comando:
 ```
 python tube_do_mp3.py
@@ -46,5 +48,5 @@ python setup.py build
 
 ## Links +uteis
 
-01. É legal baixar vídeos do YouTube? Regra de 2024
+01. É legal baixar vídeos do YouTube? Regra de 2024  
     https://www.dumpmedia.com/pt/video-converter/is-it-legal-to-download-youtube-videos.html
