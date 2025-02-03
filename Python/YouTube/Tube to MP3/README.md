@@ -2,18 +2,43 @@
 
 Programa criado para uso pessoal com fins didáticos. 
 
+## Prerequisitos
+
+- Python 3.x instalado no computador.
+- ffmpeg
+
 ## O programa pode ser executado com o comando:
 ```
 python tube_do_mp3.py
 ```
 
-## Programa que faz o build e gera um executável:
+## Passos para fazer build e gerar um executável:
 Como alternativa pode ser gerado um executável para utilizar em computadores que não tenham o Python instalado e nem as libs necessárias.
+
+### Opoção 1: Com Python 3.11 ou superior
+
 ```
-pip install cx_Freeze moviepy
+python.exe -m pip install --upgrade pip
+pip install --upgrade yt-dlp
+pip install pyinstaller
+pyinstaller --onefile --windowed "seu_programa.py"
 ```
 
-## Foi criado o ficheiro `setup.py` com o conteúdo:
+Isso gerará um .exe dentro da pasta dist/.
+
+### Opção 2: com Phython v8 até v10
+
+```
+python.exe -m pip install --upgrade pip
+pip install cx_Freeze moviepy msilib
+```
+
+Criar o executável
+```
+pyinstaller --onefile --windowed "tube_to_mp3.py"
+```
+
+#### Foi criado o ficheiro `setup.py` com o conteúdo:
 ```py
 import sys
 from cx_Freeze import setup, Executable
@@ -40,7 +65,7 @@ setup(
 )
 ```
 
-## Depois corrido o comando para gerar o build:
+#### Depois corrido o comando para gerar o build:
 ```
 python setup.py build
 
