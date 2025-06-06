@@ -6,8 +6,17 @@ import os
 import tkinter as tk
 from tkinter import ttk
 import ttkbootstrap as tb
+import warnings
+warnings.filterwarnings(
+    "ignore",
+    message="FP16 is not supported on CPU"
+)
 
 # Versão com pontuações
+# Instalação de dependências
+# pip install pyaudio whisper ttkbootstrap
+# Se o whisper der erro, instala direto do Github
+# python -m pip install git+https://github.com/openai/whisper.git
 
 # Configurações globais
 AUDIO_FILENAME = "recorded_audio.wav"
