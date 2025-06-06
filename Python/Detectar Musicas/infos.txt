@@ -1,0 +1,2 @@
+Programa em desenvolvimento.
+Objetivo: dado um ficheiro de áudio, detectar o início das músicas.
